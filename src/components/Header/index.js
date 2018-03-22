@@ -25,7 +25,11 @@ const HeaderContainer = styled.div`
   position: relative;
   z-index: 2;
 `;
-
+const billBoard = styled(Img)`
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 1.45rem 1.0875rem;
+`;
 const Header = ({ data }) => (
   <HeaderWrapper>
     <HeaderContainer>
